@@ -5,7 +5,6 @@ import java.util.List;
 import com.entities.User;
 
 public interface UserDAO {
-	// Add User
 	void addUser(User user);
 
 	void deleteUser(Long user_id);
